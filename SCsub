@@ -4,7 +4,7 @@ Import('env_modules')
 # Note, support for FastNoise2 requires C++17, and doesn't work yet on ARM.
 FAST_NOISE_2_SRC = env["voxel_fast_noise_2"]
 
-echo FAST_NOISE_2_SRC
+print("FAST_NOISE_2_SRC: %s" % str(FAST_NOISE_2_SRC))
 
 RUN_TESTS = env["voxel_tests"]
 
